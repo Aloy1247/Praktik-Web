@@ -1,7 +1,7 @@
 <?php
 session_start();
 $username_valid = "Prakasa Adi";
-$password_valid = "12345";
+$password_valid = "123";
 
 if(!isset($_POST['username']) || !isset($_POST['password'])) {
     header("Location: index.html");
